@@ -1,0 +1,49 @@
+.task__item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #eee;
+    border-radius: .25rem;
+    margin: .5rem 0;
+    padding: .5rem;
+}
+
+.active {
+    text-decoration: line-through;
+    color: #eee;
+    background: aliceblue;
+}
+
+.task__item p{
+    margin: 0;
+}
+
+.task__item input {
+    margin: 0 1rem 0 .5rem;
+}
+
+.task__item > button {
+    border: 1px solid #eee;
+    background-color: transparent;
+    padding: 2px;
+    margin: 0;
+    outline: 0;
+    background-color: #ffffff;
+    cursor: pointer; 
+}
+
+.task__item > button:hover {
+    color: #0079bf;
+}
+
+.task__item > button:active {
+    color: red;
+}
+
+.task__item div.title {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}

@@ -1,0 +1,29 @@
+.taskEditForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-top: 2rem;
+    max-width: 400px;
+}
+
+.taskEditForm .text, .taskEditForm .textarea {
+    padding: .5rem;
+    border-radius: .25rem;
+    border: 1px solid grey;
+    margin: .5rem 0;
+}
+
+.taskEditForm button {
+    padding: .5rem;
+    margin-right: .5rem;
+    outline: none;
+    border-radius: .25rem;
+    border: 1px solid grey;
+    width: 150px;
+    cursor: pointer;
+}
+
+.taskEditForm button:hover {
+    background-color: #0079bf;
+    color: #fff;
+}

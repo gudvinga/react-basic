@@ -1,0 +1,14 @@
+.progressbar {
+    height: 1rem;
+    margin: 1rem 0;
+    border-radius: .5rem;
+    background: linear-gradient(to top, #eeeeee 10%, #ffffff 40%);
+    border: 1px solid #e0e0e0;
+    position: relative;
+    overflow: hidden;
+}
+
+.progressbar__inner {
+    height: 100%;
+    background: linear-gradient(to top, #015a8d 10%, #0079bf 40%);
+}
